@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#no binarios
+src/img/
+*.jpg
+*.png
+*.svg
+*.gif
