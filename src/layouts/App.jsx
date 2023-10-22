@@ -2,7 +2,13 @@ import '../styles/App.css'
 
 function App() {
   return(
-    <ToDoItem/>
+    <div>
+      <ToDoItem/>
+      <ToDoItem/>
+      <ToDoItem/>
+
+      <ToDoCount completados={3} total={5}/>
+    </div>
   )
 }
 
@@ -13,6 +19,14 @@ function ToDoItem(){
       <p>aprender react</p>
       <span>x</span>
     </li>
+  )
+}
+
+function ToDoCount(props){
+  return(
+    <h1>
+      Completaste {props.completados} de {props.total} ToDos
+    </h1>
   )
 }
 
