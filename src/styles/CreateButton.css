@@ -1,0 +1,20 @@
+.agregar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 33px;
+    border: 2px solid #fff;
+    background-color: #006466;
+    margin: 2em 50% 0 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.agregar:hover{
+    cursor: pointer;
+    background-color: #1B3A4B;
+    transform: rotate(360deg);
+}
