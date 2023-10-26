@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/ToDoCount.css'
 
 function ToDoCount({completados, total}){
